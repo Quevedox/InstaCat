@@ -1,0 +1,129 @@
+body {
+    background-color: #252323 ;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .logo-name {
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  }
+  
+  .nav-links img{
+    width: 70px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #00bcd4;
+  }
+  
+  
+/* Estilos para la galería de imágenes */
+#gallery {
+  padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-container {
+    position: relative;
+    margin: 10px;
+}
+
+.img-container img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para el botón de eliminar */
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.delete-btn:hover {
+    background-color: #ff6666;
+}
+
+/* Estilos para el input de archivo */
+#fileInput {
+
+    margin: 10px 0;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#fileInput:hover {
+    background-color: gray;
+}
+
+input[type="text"]{
+  padding:10px;
+  outline:none;
+  border:none;
+  width: 50%;
+  background-color: #f0f3ff;
+ }
+ .scale{
+     width: 300px;
+ }
